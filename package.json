@@ -1,0 +1,21 @@
+{
+  "name": "reptile-douban",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "getList": "cross-env type=getList node index.js",
+    "getData": "cross-env type=getData node index.js",
+    "generateEpub": "cross-env type=generateEpub node index.js"
+  },
+  "dependencies": {
+    "cryptojs": "^2.5.3",
+    "es6-promise-pool": "2.5.0",
+    "moment": "^2.29.4",
+    "mongodb": "^5.5.0",
+    "nodepub": "^3.0.8",
+    "puppeteer": "^14.2.1",
+    "puppeteer-cluster": "^0.23.0",
+    "request": "^2.88.2"
+  }
+}
